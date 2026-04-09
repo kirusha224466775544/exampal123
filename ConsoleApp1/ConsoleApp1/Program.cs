@@ -11,7 +11,7 @@ namespace ConsoleApp1
             Random rnd = new Random();  
             for (int i = 0;i< numbers.Length; i++)
             {
-                numbers[i] = rnd.Next(0,20);
+                numbers[i] = rnd.Next(0,20);    
                 Console.Write(numbers[i]+"\t");
             }
             Console.WriteLine();
@@ -34,7 +34,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine();
 
-
+            Console.WriteLine("Все сделано Бентиславом");
 
         }
     }
